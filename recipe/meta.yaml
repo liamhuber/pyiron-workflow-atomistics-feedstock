@@ -1,6 +1,6 @@
 {% set name = "pyiron-workflow-atomistics" %}
 {% set pypi_name = "pyiron_workflow_atomistics" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ pypi_name[0] }}/{{ pypi_name }}/{{ pypi_name }}-{{ version }}.tar.gz
-  sha256: 637d45ce3941987b5b8c5375e4d4a0c5186df6ab63e5812956fe5e436c4b9170
+  sha256: 568928fbb46575a2ac2a0c8493bd1893da7903e7817fdce36453ee2ee613dceb
 
 build:
   noarch: python
